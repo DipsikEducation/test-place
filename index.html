@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 class="hero">Hello test project</h1>
+
+    <main>
+        <!--First BACKGROUND img,repeat,-->
+        <section class="section-backgroun">
+            <div class="background-list-wrapper">
+            <h2 class="section-backgroun-title">In this place we work with BACKGROUND</h2>
+            <ul class="background-list">
+                <li class="background-list-item">
+                    <h3 class="title">background-repeat</h3>
+                    <p class="background-discription">background-repeat:<br>
+                        Value = repeat (defolt Повторяет кратинку на фоне)<br>
+                        Value = no-repeat (Запрещает повторение и прижимает к левому верхнему углу)<br>
+                        Value = repeatX (Повторяет но только по оси Х)<br>
+                        Value = repeatY (Повторяет но только оси У)<br>
+                    </p>
+                <div class="box"></div>
+                </li>
+                <li class="background-list-item">
+                    <h3 class="title">Background-position</h3>
+                    <p class="background-discription">Задает позиционирование фона относительно родителя <br>
+                        Значение можно задать как в <em>px</em> так <em>%</em> <br>
+                        <b>Пример: background position: 20% 20%</b>
+                    </p>
+                <div class="box"></div>
+                </li>
+                <li class="background-list-item">
+                    <h3 class="title">3</h3>
+                    <p class="background-discription">test</p>
+                <div class="box"></div>
+                </li>
+                <li class="background-list-item">
+                    <h3 class="title">4 </h3>
+                    <p class="background-discription">test</p>
+                <div class="box"></div>
+                </li>
+</div>
+            </ul>
+
+        </section>
+<!--FORM SECTION-->
+        <section>
+            <div class="container">
+                <form action="send.php" method="post">
+                    <h2>Контактная форма</h2>
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Номер телефона:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Почта:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Сообщение:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

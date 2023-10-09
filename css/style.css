@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.hero{
+    margin-bottom: 70px;
+}
+
+
+.section-backgroun-title{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.background-list-wrapper {
+    max-width: 1600px;
+    outline:1px solid tomato;
+    text-align: center;
+    margin: auto;
+
+}
+
+.background-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    list-style: none;
+
+}
+
+.title{
+   margin-bottom: 16px;
+   font-size: 36px;
+}
+
+.background-discription{
+    margin-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+
+    
+}
+
+
+
+.box{
+    width: 600px;
+        min-height: 350px;
+        border: 1px solid black;
+        border-radius: 15%;
+        margin-bottom: 25px;
+}
+
+.background-list-item:nth-child(1) .box {
+    background-image: url(../images/kotik.jpg);
+}
+
+.background-list-item:nth-child(2) .box {
+    background-image: url(../images/sobachki-dlya-srisovki-instagram-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-list-item:nth-child(3) .box {
+    background-image: url(../images/enotik-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.background-list-item:nth-child(4) .box{
+    background-image: url(../images/ribka.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/*Form decoration*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00FFFF;
+    /* Бирюзовый цвет фона */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #8A2BE2;
+    /* Фиолетовый цвет фона формы */
+    border-radius: 10px;
+    /* Закругленные углы формы */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049;
+}
